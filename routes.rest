@@ -1,0 +1,19 @@
+//LOCALHOST
+###
+GET http:/localhost:3000/contacts
+###
+GET http:/localhost:3000/contacts/63325f752e2406fe7c0e841a
+###
+GET http:/localhost:3000/contacts/63325f752e2406fe7c0e841b
+###
+GET http:/localhost:3000/contacts/63325f752e2406fe7c0e841c
+
+// PRODUCTION Deploy
+###
+GET https://coltcse341node.onrender.com/contacts 
+###
+GET https://cse341-test.onrender.com/63325f752e2406fe7c0e841a
+###
+GET https://cse341-test.onrender.com/63325f752e2406fe7c0e841b
+###
+GET https://cse341-test.onrender.com/63325f752e2406fe7c0e841c
