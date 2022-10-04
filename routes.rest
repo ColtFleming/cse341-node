@@ -1,19 +1,57 @@
 //LOCALHOST
-###
+### Get all contacts
 GET http:/localhost:3000/contacts
-###
+### Get contact with certain ID
 GET http:/localhost:3000/contacts/63325f752e2406fe7c0e841a
-###
-GET http:/localhost:3000/contacts/63325f752e2406fe7c0e841b
-###
-GET http:/localhost:3000/contacts/63325f752e2406fe7c0e841c
+###Create Contact
+POST http:/localhost:3000/contacts HTTP/1.1
+content-type: application/json
+{
+    "firstName": "Henry",
+    "lastName": "Fleming",
+    "email": "Henryis#1@gmail.com",
+    "favoriteColor": "Orange",
+    "birthday": "04/02/21"
+}
+### PUT or change contact
+PUT http:/localhost:3000/contacts/63325f752e2406fe7c0e841a HTTP/1.1
+content-type: application/json
+{
+        "firstName": "Lindsay",
+        "lastName": "Fleming",
+        "email": "lindsay#1@gmail.com",
+        "favoriteColor": "Teal",
+        "birthday": "12/11/87"
+}
+### DELETE Contact
+DELETE http:/localhost:3000/contacts/63325f752e2406fe7c0e841a HTTP/1.1
+
 
 // PRODUCTION Deploy
-###
+### Get all contacts 
 GET https://coltcse341node.onrender.com/contacts 
-###
-GET https://cse341-test.onrender.com/63325f752e2406fe7c0e841a
-###
-GET https://cse341-test.onrender.com/63325f752e2406fe7c0e841b
-###
-GET https://cse341-test.onrender.com/63325f752e2406fe7c0e841c
+###Get contact by ID
+GET https://coltcse341node.onrender.com/63325f752e2406fe7c0e841a
+###Create contact 
+POST https://coltcse341node.onrender.com/contacts HTTP/1.1
+content-type: application/json
+{
+    "firstName": "Henry",
+    "lastName": "Fleming",
+    "email": "Henryis#1@gmail.com",
+    "favoriteColor": "Orange",
+    "birthday": "04/02/21"
+}
+###Put or change contact
+PUT https://coltcse341node.onrender.com/contacts HTTP/1.1
+content-type: application/json
+{
+        "firstName": "Lindsay",
+        "lastName": "Fleming",
+        "email": "lindsay#1@gmail.com",
+        "favoriteColor": "Teal",
+        "birthday": "12/11/87"
+}
+###Delete contact
+DELETE https://coltcse341node.onrender.com/63325f752e2406fe7c0e841a HTTP/1.1
+
