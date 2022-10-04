@@ -10,7 +10,7 @@ content-type: application/json
 {
     "firstName": "Mersadie",
     "lastName": "Fleming",
-    "email": "Sadierocks@gmail.com",
+    "email": "Sadieisdabest@gmail.com",
     "favoriteColor": "Orange",
     "birthday": "04/02/21"
 }
@@ -21,19 +21,19 @@ content-type: application/json
 {
         "firstName": "Lindsay",
         "lastName": "Fleming",
-        "email": "lindsay#1@gmail.com",
+        "email": "lindsayflemingisthebest@gmail.com",
         "favoriteColor": "Teal",
         "birthday": "12/11/87"
 }
 ### DELETE Contact
-DELETE http://localhost:3000/contacts/63325f752e2406fe7c0e841b HTTP/1.1
+DELETE http://localhost:3000/contacts/633bb885b379f7e4331a0dfc HTTP/1.1
 
 
 // PRODUCTION Deploy
 ### Get all contacts 
-GET https://coltcse341node.onrender.com/contacts 
+GET https://coltcse341node.onrender.com/contacts
 ###Get contact by ID
-GET https://coltcse341node.onrender.com/63325f752e2406fe7c0e841a
+GET https://coltcse341node.onrender.com/contacts/63325f752e2406fe7c0e841c
 ###Create contact 
 POST https://coltcse341node.onrender.com/contacts HTTP/1.1
 content-type: application/json
@@ -46,16 +46,16 @@ content-type: application/json
     "birthday": "04/02/21"
 }
 ###Put or change contact
-PUT https://coltcse341node.onrender.com/contacts HTTP/1.1
+PUT https://coltcse341node.onrender.com/contacts/633bae56ac0b9eb7b5bffd4f HTTP/1.1
 content-type: application/json
 
 {
         "firstName": "Lindsay",
         "lastName": "Fleming",
-        "email": "lindsay#1@gmail.com",
+        "email": "lindsayrocks@gmail.com",
         "favoriteColor": "Teal",
         "birthday": "12/11/87"
 }
 ###Delete contact
-DELETE https://coltcse341node.onrender.com/63325f752e2406fe7c0e841a HTTP/1.1
+DELETE https://coltcse341node.onrender.com/contacts/633bb9c7fca43db1500c9ed2 HTTP/1.1
 
