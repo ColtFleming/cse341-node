@@ -8,9 +8,9 @@ POST http://localhost:3000/contacts HTTP/1.1
 content-type: application/json
 
 {
-    "firstName": "Henry",
+    "firstName": "Mersadie",
     "lastName": "Fleming",
-    "email": "Henryis#1@gmail.com",
+    "email": "Sadierocks@gmail.com",
     "favoriteColor": "Orange",
     "birthday": "04/02/21"
 }
@@ -26,7 +26,7 @@ content-type: application/json
         "birthday": "12/11/87"
 }
 ### DELETE Contact
-DELETE http://localhost:3000/contacts/63325f752e2406fe7c0e841a HTTP/1.1
+DELETE http://localhost:3000/contacts/63325f752e2406fe7c0e841b HTTP/1.1
 
 
 // PRODUCTION Deploy
