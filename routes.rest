@@ -1,11 +1,12 @@
 //LOCALHOST
 ### Get all contacts
-GET http:/localhost:3000/contacts
+GET http://localhost:3000/contacts HTTP/1.1
 ### Get contact with certain ID
-GET http:/localhost:3000/contacts/63325f752e2406fe7c0e841a
+GET http://localhost:3000/contacts/63325f752e2406fe7c0e841a HTTP/1.1
 ###Create Contact
-POST http:/localhost:3000/contacts HTTP/1.1
+POST http://localhost:3000/contacts HTTP/1.1
 content-type: application/json
+
 {
     "firstName": "Henry",
     "lastName": "Fleming",
@@ -14,8 +15,9 @@ content-type: application/json
     "birthday": "04/02/21"
 }
 ### PUT or change contact
-PUT http:/localhost:3000/contacts/63325f752e2406fe7c0e841a HTTP/1.1
+PUT http://localhost:3000/contacts/63325f752e2406fe7c0e841a HTTP/1.1
 content-type: application/json
+
 {
         "firstName": "Lindsay",
         "lastName": "Fleming",
@@ -24,7 +26,7 @@ content-type: application/json
         "birthday": "12/11/87"
 }
 ### DELETE Contact
-DELETE http:/localhost:3000/contacts/63325f752e2406fe7c0e841a HTTP/1.1
+DELETE http://localhost:3000/contacts/63325f752e2406fe7c0e841a HTTP/1.1
 
 
 // PRODUCTION Deploy
@@ -35,6 +37,7 @@ GET https://coltcse341node.onrender.com/63325f752e2406fe7c0e841a
 ###Create contact 
 POST https://coltcse341node.onrender.com/contacts HTTP/1.1
 content-type: application/json
+
 {
     "firstName": "Henry",
     "lastName": "Fleming",
@@ -45,6 +48,7 @@ content-type: application/json
 ###Put or change contact
 PUT https://coltcse341node.onrender.com/contacts HTTP/1.1
 content-type: application/json
+
 {
         "firstName": "Lindsay",
         "lastName": "Fleming",
