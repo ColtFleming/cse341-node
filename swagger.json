@@ -8,7 +8,7 @@
   "host": "https://coltcse341node.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/api-docs": {
