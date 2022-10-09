@@ -33,7 +33,7 @@ DELETE http://localhost:3000/contacts/633bb885b379f7e4331a0dfc HTTP/1.1
 ### Get all contacts 
 GET https://coltcse341node.onrender.com/contacts
 ###Get contact by ID
-GET https://coltcse341node.onrender.com/contacts/63325f752e2406fe7c0e841c
+GET https://coltcse341node.onrender.com/contacts/633bb9c7fca43db1500c9ed1
 ###Create contact 
 POST https://coltcse341node.onrender.com/contacts HTTP/1.1
 content-type: application/json
