@@ -8,7 +8,6 @@
   "host": "https://coltcse341node.onrender.com",
   "basePath": "/",
   "schemes": [
-    "https",
     "http"
   ],
   "paths": {

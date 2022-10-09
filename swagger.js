@@ -6,7 +6,7 @@ const doc = {
     description: 'Contacts API'
   },
   host: 'https://coltcse341node.onrender.com',
-  schemes: ['https', 'http']
+  schemes: ['http']
 };
 
 const outputFile = './swagger.json';
