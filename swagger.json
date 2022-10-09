@@ -5,7 +5,7 @@
     "description": "Contacts API",
     "version": "1.0.0"
   },
-  "host": "https://coltcse341node.onrender.com",
+  "host": "coltcse341node.onrender.com",
   "basePath": "/",
   "schemes": [
     "https"
