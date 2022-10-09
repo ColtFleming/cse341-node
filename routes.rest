@@ -2,7 +2,7 @@
 ### Get all contacts
 GET http://localhost:3000/contacts HTTP/1.1
 ### Get contact with certain ID
-GET http://localhost:3000/contacts/63325f752e2406fe7c0e841a HTTP/1.1
+GET http://localhost:3000/contacts/63325f752e2406fe7c0e841c HTTP/1.1
 ###Create Contact
 POST http://localhost:3000/contacts HTTP/1.1
 content-type: application/json

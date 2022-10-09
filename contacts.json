@@ -1,23 +1,23 @@
 {
-    "contact": {
-        "firstName": "Lindsay",
-        "lastName": "Fleming",
-        "email": "lindsayfleming#1@gmail.com",
-        "favoriteColor": "Teal",
-        "birthday": "12/11/87"
-    },
-    "contact2": {
-        "firstName": "Mersadie",
-        "lastName": "Fleming",
-        "email": "sadiefleming#1@gmail.com",
-        "favoriteColor": "Green",
-        "birthday": "10/27/12"
-    },
-    "contact3": {
-        "firstName": "Gavin",
-        "lastName": "Fleming",
-        "email": "gavitron#1@gmail.com",
-        "favoriteColor": "Blue",
-        "birthday": "07/19/14"
-    }
+  "contact": {
+    "firstName": "Lindsay",
+    "lastName": "Fleming",
+    "email": "lindsayfleming#1@gmail.com",
+    "favoriteColor": "Teal",
+    "birthday": "12/11/87"
+  },
+  "contact2": {
+    "firstName": "Mersadie",
+    "lastName": "Fleming",
+    "email": "sadiefleming#1@gmail.com",
+    "favoriteColor": "Green",
+    "birthday": "10/27/12"
+  },
+  "contact3": {
+    "firstName": "Gavin",
+    "lastName": "Fleming",
+    "email": "gavitron#1@gmail.com",
+    "favoriteColor": "Blue",
+    "birthday": "07/19/14"
+  }
 }
